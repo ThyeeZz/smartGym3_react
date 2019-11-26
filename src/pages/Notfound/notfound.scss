@@ -1,0 +1,39 @@
+.notFound{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: url("../../assets/404.jpg") center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .tip{
+        width: 240px;
+        height: 100px;
+        display: flex;
+        flex-direction: column;
+        P{
+            margin: 10px 0;
+        }
+        .myBtn{
+            display: inline-block;
+            width: 90px;
+            height: 30px;
+            cursor: pointer;
+            border: 1px solid #1890FF;
+            border-radius: 5px;
+            font-size: 14px;
+            background-color: #1890FF;
+            line-height: 30px;
+        }
+        .myBtn:hover{
+            background-color: #20A0FF;
+        }
+        .myBtm:focus{
+            background-color: #1890FF;
+        }
+    }
+}

@@ -1,0 +1,169 @@
+.smartGym{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    padding: 0 19px;
+    color: #fff;
+    background-color: #0E1119;
+    overflow: hidden;
+    .item_wrap{
+        width: 450px;
+        height: 220px;
+        box-sizing: border-box;
+        margin: 5px 10px;
+        background: url("../../assets/images/bgImg4.png") center center no-repeat;
+        background-size: cover;
+        display: flex;
+        border-radius: 10px;
+        .item_left{
+            width: 130px;
+            height: 100%;
+            .index_wrap{
+                width: 100%;
+                height: 60px;
+                box-sizing: border-box;
+                padding: 10px;
+                span{
+                    display: inline-block;
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 50%;
+                    background-color: #15436D;
+                    line-height: 25px;
+                    text-align: center;
+                }
+            }
+            .hp_wrap{
+                width: 100%;
+                height: 100px;
+                display: flex;
+                box-sizing: border-box;
+                padding: 10px;
+                .hp{
+                    width: 80%;
+                    font-size: 66px;
+                    text-align: center;
+                    line-height: 80px;
+                }
+                .hp_icon{
+                    width: 20%;
+                    box-sizing: border-box;
+                    padding-top: 10px;
+                    text-align: center;
+                }
+            }
+            .cal_wrap{
+                width: 100%;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+                padding: 10px;
+                .cal_icon{
+                    width: 26px;
+                    height: 26px;
+                    background: url("../../assets/images/cal.png") center center no-repeat;
+                    background-size: cover;
+                }
+                .cal{
+                    width: 50%;
+                    font-size: 22px;
+                    margin-left: 3px;
+                }
+            }
+        }
+        .item_mid{
+            width: 120px;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            .ava_wrap{
+                width: 120px;
+                height: 120px;
+                border-radius: 50%;
+                overflow: hidden;
+                img{
+                    width: 120px;
+                    height: 120px;
+                }
+            }
+        }
+        .item_right{
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            box-sizing: border-box;
+            padding: 10px;
+            .name{
+                width: 100%;
+                height: 60px;
+                text-align: right;
+            }
+            .hr_wrap{
+                width: 100%;
+                height: 100px;
+                display: flex;
+                .hr{
+                    font-size: 66px;
+                    width: 80%;
+                    text-align: right;
+                }
+                .hr_icon{
+                    width: 20%;
+                    display: flex;
+                    justify-content: center;
+                    box-sizing: border-box;
+                    padding-top: 10px;
+                    span{
+                        display: inline-block;
+                        width: 26px;
+                        height: 26px;
+                        background: url("../../assets/images/hr.png") center center no-repeat;
+                        background-size: 110% 110%;
+                    }
+                }
+            }
+            .st_wrap{
+                width: 100%;
+                height: 60px;
+                display: flex;
+                align-items: center;
+                box-sizing: border-box;
+                padding: 10px;
+                justify-content: flex-end;
+                .st_icon{
+                    width: 26px;
+                    height: 26px;
+                    background: url("../../assets/images/st.png") center center no-repeat;
+                    background-size: cover;
+                }
+                .st{
+                    font-size: 22px;
+                    text-align: right;
+                    margin-left: 3px;
+                }
+            }
+        }
+    }
+    .bg0{
+        background: url("../../assets/images/bgImg0.png") center center no-repeat;
+        background-size: cover;   
+    }
+    .bg1{
+        background: url("../../assets/images/bgImg1.png") center center no-repeat;
+        background-size: cover;   
+    }
+    .bg2{
+        background: url("../../assets/images/bgImg2.png") center center no-repeat;
+        background-size: cover;   
+    }
+    .bg3{
+        background: url("../../assets/images/bgImg3.png") center center no-repeat;
+        background-size: cover;   
+    }
+}
